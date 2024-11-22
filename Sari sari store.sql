@@ -2,7 +2,7 @@ CREATE DATABASE storeee;
 USE storeee;
 CREATE TABLE Store (
     ProductName VARCHAR(50) NOT NULL,
-    Price DECIMAL(10, 2) NOT NULL,
+    Price int NOT NULL,
     ExpirationDate DATE,
     Quantity INT NOT NULL,
     Category VARCHAR(30) NOT NULL,
